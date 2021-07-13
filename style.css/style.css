@@ -30,3 +30,18 @@ main{
     width: 100%;
 
 }
+
+
+/*----------------------------
+ Responsive design in style sheet 
+------------------------------ */
+
+@media only screen and (max-width:688px) {
+    .players{
+        width: 100%;
+    }
+    .player{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
