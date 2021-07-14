@@ -130,15 +130,35 @@ footer{
 
 
 /*----------------------------
- Responsive design in style sheet 
+ Media Queries
 ------------------------------ */
 
-@media only screen and (max-width:688px) {
-    .players{
-        width: 100%;
-    }
-    .player{
-        grid-template-columns: repeat(1,1fr);
-    }
-    
+/* mobile devices */
+
+@media only screen and (min-width:481px) and (max-width:768px)  {
+       
+        header{
+            flex-direction: column;
+        }
+        .header-container{
+            flex-direction: column;
+        }
+        .header-image{
+            width: 500px;
+            margin-right: 0px;
+        }
+        .header-image img{
+            width: 450px;
+            margin-right: 0px;
+
+        }
+        .players{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .player{
+            width: 200px;
+        }
+        
 }
+
+
