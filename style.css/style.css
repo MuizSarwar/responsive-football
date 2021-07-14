@@ -9,9 +9,6 @@ body{
 
 
 
-
-
-
 /*-------------------
  header style sheet 
 ------------------- */
@@ -161,6 +158,8 @@ footer{
     }
 }
 
+/* Ipad or Tablets device */
+
 @media only screen and (min-width:481px) and (max-width:768px)  {
        
         header{
@@ -187,11 +186,6 @@ footer{
         
 }
 
-/* Ipad and Tablets */
-@media only screen and (min-width:769px) and (max-width:1279px) {
 
-
-    
-}
 
 
