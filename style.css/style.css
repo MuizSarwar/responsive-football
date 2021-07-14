@@ -134,6 +134,32 @@ footer{
 ------------------------------ */
 
 /* mobile devices */
+@media only screen and (max-width:480px) {
+    header{
+        flex-direction: column;
+    }
+    .header-container{
+        flex-direction: column;
+    }
+    .header-text{
+        width: 400px;
+    }
+    .header-image{
+        width: 470px;
+        margin-right: 0px;
+    }
+    .header-image img{
+        width: 400px;
+        margin-right: 0px;
+    }
+    .players{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .player{
+        width: 200px;
+    }
+}
 
 @media only screen and (min-width:481px) and (max-width:768px)  {
        
@@ -159,6 +185,13 @@ footer{
             width: 200px;
         }
         
+}
+
+/* Ipad and Tablets */
+@media only screen and (min-width:769px) and (max-width:1279px) {
+
+
+    
 }
 
 
