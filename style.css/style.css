@@ -9,6 +9,7 @@ body{
 main{
     display: flex;
     justify-content: center;
+    margin-bottom: 69px;
 }
 .players{
     display: grid;
@@ -32,6 +33,40 @@ main{
 }
 
 
+/*--------------------
+ footer style sheet 
+---------------------- */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-container{
+    width: 483px;
+    height: 213px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 69px;
+}
+.footer-logo{
+    margin-bottom:20px;
+
+}
+.footer-logo img{
+    width: 100%;
+}
+
+.footer-icon{
+    margin-bottom:20px;
+}
+.fab{
+    margin-left: 15px ;
+    border-radius: 50px;
+
+}
 /*----------------------------
  Responsive design in style sheet 
 ------------------------------ */
